@@ -26,3 +26,8 @@ B) The ORM module provides integration layers for popular object-relational mapp
 C) The Java Messaging Service JMS module contains features for producing and consuming messages. 
   
   <b>-> False.</b> Similar to JPA or JDBC, JMS is only a specification and does not contain any implementation. A JMS connector like activemq-jms, websphere-jms etc. is required to do the integration with coresponding messaging service.
+
+# System Specifications
+1. Open JDK 11
+2. STS 4
+3. Maven 3.6
